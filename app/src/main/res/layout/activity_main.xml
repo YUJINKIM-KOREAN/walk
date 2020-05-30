@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mainLayout"
+    >
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title1"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/place1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/seoul"
+                android:text="@string/easy"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/place2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/newyork"
+                android:text="@string/middle1"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/place3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paris"
+                android:text="@string/middle2"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/place4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bali"
+                android:text="@string/high"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

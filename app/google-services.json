@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "604949906634",
+    "firebase_url": "https://walking-partner-75ab7.firebaseio.com",
+    "project_id": "walking-partner-75ab7",
+    "storage_bucket": "walking-partner-75ab7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604949906634:android:49a0d83bb87912351ca033",
+        "android_client_info": {
+          "package_name": "com.swdm2020gachon.mptp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604949906634-pon4jh3jfsee885hbro0e8to6f80o6j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfRVC4DrB97cC_0vBigrxczK-9yDrnO1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604949906634-pon4jh3jfsee885hbro0e8to6f80o6j0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
